@@ -1,43 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
 .containerMain {
   width: 100vw;
   height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .containerMain main {
-  width: 60%;
+  width: 65%;
   height: 900px;
   /* background-color: gray; */
-}
-
-.header {
-  width: 100%;
-  height: 230px;
-  display: flex;
-  border: 1px solid green;
-}
-
-.containerImg {
-  height: 100%;
-  width: 35%;
-}
-
-.containerImg img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px 85px;
-  border: 2px solid #7E8EF1;
-  /* box-shadow: 10px 5px 5px rgb(63, 63, 63); */
-}
-
-.description{
-    width: 35%;
-    height: 100%;
-    border: 1px solid green;
-}
-
-.containerMain .title{
-    color: white;
 }

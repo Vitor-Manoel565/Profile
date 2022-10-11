@@ -1,0 +1,16 @@
+.containerCard {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* flex-direction: row;*/
+  flex-wrap: wrap;
+  /* gap: 10px;  */
+  min-width: 425px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+}

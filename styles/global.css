@@ -1,9 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-body{
-    background-color: #000000;
-}
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #000000;
+    }
+    :root{
+        --color-cards: #22242f; 
+        --color-secondary: #7e8ef1;
+        --hover-cards: #3f4357;
+        --font-color-titles: #7e8ef1;
+        --color-font: white;
+        --background-card:#333647;
+    }
+      
+  }
+  
+  @media (prefers-color-scheme: light) {
+    body{
+        background-color: #ecf5f6;
+    }
+    :root{
+        --color-font: rgb(0, 0, 0);
+        --color-cards: #01c792; 
+        --color-secondary: #7e8ef1;
+        --hover-cards: #adecdb;
+        --font-color-titles: #067557;
+        --background-card:#ecf5f6;
+    }
+  }
